@@ -145,7 +145,7 @@ function cart(db, printProducts) {
   })
 
   checkoutDOM.addEventListener('click', function () {
-    checkout(id)
+    checkout()
   })
 }
 
