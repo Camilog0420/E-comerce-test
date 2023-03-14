@@ -117,7 +117,7 @@ function cart(db, printProducts) {
     cart = []
     printCart()
     printProducts()
-    swal('Gracias por su compra')
+    window.alert('Gracias por su compra')
   }
 
 
@@ -145,7 +145,7 @@ function cart(db, printProducts) {
   })
 
   checkoutDOM.addEventListener('click', function () {
-    checkout()
+    checkout(id)
   })
 }
 
